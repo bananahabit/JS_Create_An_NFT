@@ -32,7 +32,6 @@ function mintNFT (_name, _hat, _teeth, _fur, _eyewear) {
 // and print their metadata with console.log()
 function listNFTs () {
 
-    // for (let i =0; i < NFTArr.length; i++)
     while (counter < NFTArr.length){
         console.log ("Details of NFT: \t" + NFTArr[counter].name); 
         console.log ("Name: \t" + NFTArr[counter].name); 
